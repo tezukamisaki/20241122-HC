@@ -1,0 +1,119 @@
+@charset "utf-8";
+/* リセットCSS */
+@import "https://unpkg.com/ress/dist/ress.min.css";
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(img/263e33777e4f7b092e13473994b2ab2c_6970639778200787317.jpg); 
+    color: #fff;
+    background-size: cover;
+}
+main{
+    width: 1000px;
+    margin: 80px auto;
+    padding: 80px;
+    background: rgb(28, 29, 35,80%)
+    
+}
+
+
+
+/********************
+* 見出し
+*********************/
+
+h2{
+    font-size: 24px;
+    padding: 16px 0;
+    border-top: 2px solid #7a7b82;
+    border-bottom: 2px solid #7a7b82;
+    text-align: center;
+    margin-bottom: 40px;
+    background: #383a43;
+}
+
+h3{
+    font-size: 20px;
+    padding: 4px 0 4px 20px;
+    border-left: 8px solid #5c64f4;
+    margin-bottom: 20px;
+    background: #25272e;
+    
+}
+/********************
+* コンテンツ
+*********************/
+
+.contents-area{
+    display: flex;
+    gap: 40px;
+}
+
+.left-area,
+.right-area{
+    width: 400px;
+}
+
+.contents {
+    padding-left: 24px;
+    margin-bottom: 20px;
+}
+
+/****************************
+* section#prifile
+*****************************/
+
+.section{
+    background: #1c1d23;
+}
+#profile{
+    margin-bottom: 80px;
+}
+
+#profile img {
+    display: block;
+    margin: auto;
+    width: 350px;
+    height: 350px;
+    border: solid 3px #777777;
+}
+
+.my-name {
+    font-size: 24px;
+    text-align: center;
+    margin: 40px 0;
+}
+
+.my-name rt {
+    margin-bottom: 4px;
+}
+
+
+.my-intro {
+    width: 500px;
+    height: 100px;
+  margin: auto;
+  text-align: center;
+}
+
+img{
+    width: 300px;
+    height: 200px;
+}
+
+a:hover img {
+    border: solid 2px #fff;
+  }
+/****************************
+* 
+*****************************/
+
+
+/********************
+* 
+*********************/
+
+/***  ***/
